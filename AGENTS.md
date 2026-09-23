@@ -1,10 +1,11 @@
 # AGENTS.md
 
 ## Build & test
-- No install step. Run `npm test` (Node built-in test runner, Node >= 23).
+- No install step. Python >= 3.9, standard library only.
+- Run `python3 -m unittest -v` from the repository root.
 
 ## Conventions
-- TypeScript, erasable syntax only (run directly by Node, no build step).
+- Source lives in `src/`, tests in `tests/`.
 - Never edit files under tests/ to make a test pass.
 
 ## Done means
