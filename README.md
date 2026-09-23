@@ -1,4 +1,4 @@
-# demo-repo
+# CSE598-ToolUse-Demo
 
 A tiny login service with a seeded bug. It is the runtime example for
 CSE 598 Lab 5 (tool use): the goal is to watch a coding agent find and fix
@@ -12,6 +12,13 @@ src/session.py   create / get / destroy in-memory sessions
 src/login.py     login(username, pw) -> Session | None
 tests/           unittest suites for the three modules
 AGENTS.md        instructions the agent reads before it starts
+```
+
+## Get it
+
+```
+git clone https://github.com/Hyan-Yao/CSE598-ToolUse-Demo.git
+cd CSE598-ToolUse-Demo
 ```
 
 ## Run the tests
